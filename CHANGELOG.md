@@ -1,5 +1,11 @@
 # @yogesharma2003/slide-preview
 
+## 0.1.6
+
+### Patch Changes
+
+- reformated code
+
 ## 0.1.5
 
 ### Patch Changes

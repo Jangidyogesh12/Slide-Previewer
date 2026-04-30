@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap");
+
+.preview-shell {
+    --panel: #1f2026;
+    --panel-border: #2a2a2a;
+    --panel-soft: #2a2e3d;
+    --text: #e6e8ef;
+    --muted: #8f95ab;
+    --active: #1f90ff;
+    color: var(--text);
+}
+
+.preview-shell.theme-light {
+    --panel: #f3f6fb;
+    --panel-border: #c3c3c3;
+    --panel-soft: #d4deef;
+    --text: #1e293b;
+    --muted: #64748b;
+    --active: #2563eb;
+    --light-page: #ffffff;
+    --light-stage: #ffffff;
+}

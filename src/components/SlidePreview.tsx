@@ -60,7 +60,7 @@ export function SlidePreview({ items, theme = "dark" }: SlidePreviewProps) {
           aria-label={drawerOpen ? "Hide slide drawer" : "Show slide drawer"}
           onClick={() => setDrawerOpen((open) => !open)}
         >
-          <span aria-hidden="true">{drawerOpen ? "<" : ">"}</span>
+          <span aria-hidden="true">{drawerOpen ? "‹" : "›"}</span>
         </button>
         <ol className="thumb-list">
           {items.map((slide, index) => (

@@ -1,0 +1,117 @@
+@media (prefers-reduced-motion: reduce) {
+    .preview-shell,
+    .slide-strip,
+    .strip-action,
+    .thumb-card,
+    .slide-canvas {
+        transition: none;
+    }
+    .slide-canvas {
+        transition: none;
+    }
+    .slide-content,
+    .slide-topbar,
+    .slide-foot {
+        animation: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .preview-shell.empty-preview-shell {
+        grid-template-columns: 1fr;
+    }
+    .slide-strip {
+        border-right: 1px solid var(--panel-border);
+        border-bottom: 0;
+        padding: 0.85rem 0.7rem 1rem;
+    }
+    .slide-strip.is-collapsed {
+        padding-inline: 0.2rem;
+    }
+    .preview-shell.drawer-collapsed {
+        grid-template-columns: clamp(2rem, 8vw, 2.8rem) 1fr;
+    }
+    .slide-strip.is-collapsed .thumb-list,
+    .slide-strip.is-collapsed .thumb-index {
+        display: none;
+    }
+    .strip-action {
+        display: grid;
+        width: clamp(1.7rem, 4.2vw, 2.15rem);
+        height: clamp(1.7rem, 4.2vw, 2.15rem);
+        font-size: clamp(1.45rem, 3.6vw, 1.85rem);
+        right: clamp(0.15rem, 1.2vw, 0.55rem);
+        top: clamp(0.55rem, 1.3vw, 0.8rem);
+    }
+    .thumb-list {
+        margin-top: 2.7rem;
+        gap: 0.6rem;
+    }
+    .thumb-row {
+        grid-template-columns: 1.1rem 1fr;
+        gap: 0.4rem;
+    }
+    .thumb-index {
+        font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+    }
+    .thumb-card {
+        padding: 0.22rem;
+        border-radius: 0.24rem;
+    }
+    .thumb-viewport {
+        border-radius: 0.14rem;
+    }
+    .thumb-scale .slide-canvas {
+        border-radius: 2px;
+    }
+    .stage {
+        padding: 0.9rem;
+    }
+    .slide-canvas {
+        width: min(100%, calc((100vh - 1.8rem) * (16 / 9)));
+    }
+    .slide-topbar,
+    .slide-foot {
+        left: 1.2rem;
+        right: 1.2rem;
+        font-size: 0.56rem;
+    }
+    .brand {
+        font-size: 0.67rem;
+    }
+    .brand-dot {
+        width: 0.75rem;
+    }
+    .slide-content {
+        padding: 3.5rem 0.8rem 2.2rem;
+    }
+    .pill {
+        font-size: 0.46rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .preview-shell.drawer-collapsed {
+        grid-template-columns: clamp(1.7rem, 7vw, 2.3rem) 1fr;
+    }
+    .slide-strip {
+        padding-inline: clamp(0.35rem, 1.8vw, 0.55rem);
+    }
+    .thumb-row {
+        grid-template-columns: 0.95rem 1fr;
+        gap: 0.32rem;
+    }
+    .thumb-index {
+        font-size: clamp(0.8rem, 3.2vw, 1.15rem);
+    }
+    .thumb-card {
+        padding: 0.2rem;
+        border-radius: 0.18rem;
+    }
+    .thumb-viewport {
+        border-radius: 0.1rem;
+    }
+    .thumb-scale .slide-canvas {
+        border-radius: 1px;
+    }
+}

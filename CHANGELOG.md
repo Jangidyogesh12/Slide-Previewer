@@ -1,5 +1,11 @@
 # @yogesharma2003/slide-preview
 
+## 0.1.8
+
+### Patch Changes
+
+- fix colapse symbol
+
 ## 0.1.7
 
 ### Patch Changes

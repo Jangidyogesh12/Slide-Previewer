@@ -1,5 +1,11 @@
 # @yogesharma2003/slide-preview
 
+## 0.1.4
+
+### Patch Changes
+
+- updated workflows
+
 ## 0.1.3
 
 ### Patch Changes

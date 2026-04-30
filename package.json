@@ -1,7 +1,7 @@
 {
   "name": "@yogesharma2003/slide-preview",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packageManager": "pnpm@10.25.0",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -35,5 +35,8 @@
     "react-dom": "^19.2.5",
     "typescript": "~6.0.2",
     "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.31.0"
   }
 }

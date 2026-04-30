@@ -5,14 +5,14 @@ Reusable React component library for rendering slide thumbnails in a drawer with
 ## Install
 
 ```bash
-npm install @yogeshsharma/slide-preview
+npm install @yogesharma2003/slide-preview
 ```
 
 ## Usage
 
 ```tsx
-import { SlidePreview, type SlideData } from "@yogeshsharma/slide-preview";
-import "@yogeshsharma/slide-preview/style.css";
+import { SlidePreview, type SlideData } from "@yogesharma2003/slide-preview";
+import "@yogesharma2003/slide-preview/style.css";
 
 const slides: SlideData[] = [
   {

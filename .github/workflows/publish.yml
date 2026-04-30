@@ -30,6 +30,16 @@ jobs:
           node-version: 22
           cache: pnpm
           registry-url: https://registry.npmjs.org
+          always-auth: true
+
+      - name: Ensure npm token is available
+        run: |
+          if [ -z "$NODE_AUTH_TOKEN" ]; then
+            echo "NPM token is missing. Add NPM_TOKEN in Repository secrets (Settings > Secrets and variables > Actions)."
+            exit 1
+          fi
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile

@@ -1,7 +1,7 @@
 {
   "name": "@yogesharma2003/slide-preview",
   "license": "MIT",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "packageManager": "pnpm@10.25.0",
   "type": "module",
   "main": "./dist/index.cjs",

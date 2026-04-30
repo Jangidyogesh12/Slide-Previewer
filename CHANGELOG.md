@@ -1,5 +1,12 @@
 # @yogesharma2003/slide-preview
 
+## 0.1.5
+
+### Patch Changes
+
+- 7dc5ef9: minor fix
+- fix workflow
+
 ## 0.1.4
 
 ### Patch Changes

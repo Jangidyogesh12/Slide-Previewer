@@ -1,5 +1,11 @@
 # @yogesharma2003/slide-preview
 
+## 0.1.7
+
+### Patch Changes
+
+- fix react compiler error
+
 ## 0.1.6
 
 ### Patch Changes
